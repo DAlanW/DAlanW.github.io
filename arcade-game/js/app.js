@@ -1,4 +1,6 @@
 // Enemies our player must avoid
+"use strict";
+
 var Enemy = function() {
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
@@ -31,7 +33,7 @@ Enemy.prototype.update = function(dt) {
 
     this.x += this.speed * dt;
 
-    ind = allEnemies.indexOf(this);
+    var ind = allEnemies.indexOf(this);
 
     //  The number of enemies in "allEnemies" is made equal to the number of enemies set in "CONSTANTS."
     if (allEnemies.length < CONSTANTS['enemy.numEnemies']){
