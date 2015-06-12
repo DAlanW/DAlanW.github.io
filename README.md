@@ -4,6 +4,10 @@ This is the location of my projects for my Front-End Web-Development Nanodegree 
 
 Please click [here](http://dalanw.github.io/) to go to the main page.
 
+# Resume
+
+Please click [here](http://dalanw.github.io/resume/) to view my resume.
+
 # Frogger Game Clone
 
 Please click [here](http://dalanw.github.io/arcade-game/) to play a "Frogger" Game Clone.
