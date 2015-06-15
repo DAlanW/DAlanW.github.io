@@ -8,6 +8,10 @@ Please click [here](http://dalanw.github.io/) to go to the main page.
 
 Please click [here](http://dalanw.github.io/resume/) to view my resume.
 
+# Design-Mockup
+
+Please click [here](http://dalanw.github.io/design-mockup/) to view this project.
+
 # Frogger Game Clone
 
 Please click [here](http://dalanw.github.io/arcade-game/) to play a "Frogger" Game Clone.
