@@ -144,7 +144,7 @@ projects.display = function(_project)	{
 		var projectDates = HTMLprojectDates.replace("%data%", _project.onlineCourses[project].dates);
 		var projectDescription = HTMLprojectDescription.replace("%data%", _project.onlineCourses[project].description);
 		// combines the formatted changes
-		var formattedProject = projectTitle + projectDates + projectDescription;
+		var formattedProject = projectURL + projectTitle + projectDates + projectDescription;
 		// appends the project to each div
 		$(".project-entry:last").append(formattedProject);
 		if (_project.onlineCourses[project].image.length > 0){
