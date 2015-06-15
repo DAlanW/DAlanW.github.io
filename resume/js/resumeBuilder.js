@@ -7,7 +7,7 @@ var bio = {
 		"email": "david.a.wampler@gmail.com",
 		"gitHub": "DAlanW",
 		"twitter": "@DavidWampler",
-		"location": "Florence, KY"
+		"location": "Austin, TX"
 	},
 	"skills": [
 		"Editing", "HTML", "CSS", "JavaScript"
@@ -126,8 +126,8 @@ var projects = {
 			"dates": "2015",
 			"description": "Created a web page made to match an original PDF Document.",
 			"image": [
-				"images/mockup-screenshot.png",
-				"images/mug.png"
+				"images/page-mock.png",
+				"images/mockup-screenshot.png"
 			]
 		}
 	]
@@ -151,8 +151,6 @@ projects.display = function(_project)	{
 				$(".project-entry:last").append(projectImage)
 			}
 		}
-
-
 	}
 }
 
