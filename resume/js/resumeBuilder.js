@@ -121,6 +121,7 @@ work.display(work);
 var projects = {
 	"onlineCourses": [
 		{
+			"projectURL": "http://dalanw.github.io/design-mockup/",
 			"projectTitle": "Design Mockup",
 			"courseTitle": "Intro to HTML and CSS",
 			"dates": "2015",
@@ -138,6 +139,7 @@ projects.display = function(_project)	{
 		// create a new div for every project
 		$("#projects").append(HTMLprojectStart);
 		// format using helper.js
+		var projectURL = HTMLprojectURL.replace("%url%", _project.onlineCourses[project].projectURL);
 		var projectTitle = HTMLprojectTitle.replace("%data%", _project.onlineCourses[project].projectTitle);
 		var projectDates = HTMLprojectDates.replace("%data%", _project.onlineCourses[project].dates);
 		var projectDescription = HTMLprojectDescription.replace("%data%", _project.onlineCourses[project].description);
@@ -224,7 +226,6 @@ education.display = function(_education) {
 			var formattedOnlineClass =  onlineClassTitleURL + onlineClassTitle + onlineClassSchool + onlineClassDates + onlineClassURL + onlineClassPrintedURL;
 			//appends online classes to each div
 			$(".education-entry:last").append(formattedOnlineClass);
-			console.log(onlineClassTitleURL);
 		}
 	}
 };
