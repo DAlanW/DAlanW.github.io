@@ -121,7 +121,7 @@ work.display(work);
 var projects = {
 	"onlineCourses": [
 		{
-			"projectURL": "http://dalanw.github.io/design-mockup/",
+			"projectURL": "http://dalanw.github.io/design-mockup",
 			"projectTitle": "Design Mockup",
 			"courseTitle": "Intro to HTML and CSS",
 			"dates": "2015",
@@ -129,6 +129,16 @@ var projects = {
 			"image": [
 				"images/page-mock.png",
 				"images/mockup-screenshot.png"
+			]
+		},
+		{
+			"projectURL": "http://dalanw.github.io/arcade-game",
+			"projectTitle": "Frogger Game Clone",
+			"courseTitle": "Object Oriented JavaScript",
+			"dates": "2015",
+			"description": "Recreated a version of the classic arcade game 'Frogger'",
+			"image": [
+				"images/frogger-clone-screenshot.png"
 			]
 		}
 	]
