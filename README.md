@@ -15,3 +15,7 @@ Please click [here](http://dalanw.github.io/design-mockup/) to view this project
 # Frogger Game Clone
 
 Please click [here](http://dalanw.github.io/arcade-game/) to play a "Frogger" Game Clone.
+
+#  Website Performance Optimization Project
+
+Please click [here](http://dalanw.github.io/page-speed-project-portfolio/) to view this project.
