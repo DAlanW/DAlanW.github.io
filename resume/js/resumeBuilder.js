@@ -76,11 +76,18 @@ bio.display(bio);
 var work = {
 	"jobs": [
 		{
+			"employer": "Mattress Pro",
+			"title": "Manager",
+			"location": "Austin, TX",
+			"dates": "2015",
+			"description": "I oversee store locations to attract business and work with customers to finalize sales."
+		},
+		{
 			"employer": "RR Donnelley",
 			"title": "Bindery Material Handler",
 			"location": "Florence, KY",
 			"dates": "2013-2015",
-			"description": "Helped maintain and operate machines. Prepare material for transport."
+			"description": "Helped maintain and operate machines. Prepared material for transport."
 		},
 		{
 			"employer": "Books-A-Million",
