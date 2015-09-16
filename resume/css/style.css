@@ -155,10 +155,9 @@ ul {
 }
 
 .projectPic {
-  float: left;
   padding: 10px;
   width: 200px;
-  display: block;
+  vertical-align: top;
 }
 
 img {

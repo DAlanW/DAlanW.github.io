@@ -152,25 +152,24 @@ var projects = {
 };
 
 projects.display = function(_project)	{
-	for (project in _project.onlineCourses){
-		// create a new div for every project
-		$("#projects").append(HTMLprojectStart);
-		// format using helper.js
-		var projectURL = HTMLprojectURL.replace("%url%", _project.onlineCourses[project].projectURL);
-		var projectTitle = HTMLprojectTitle.replace("%data%", _project.onlineCourses[project].projectTitle);
-		var projectDates = HTMLprojectDates.replace("%data%", _project.onlineCourses[project].dates);
-		var projectDescription = HTMLprojectDescription.replace("%data%", _project.onlineCourses[project].description);
-		// combines the formatted changes
-		var formattedProject = projectURL + projectTitle + projectDates + projectDescription;
-		// appends the project to each div
-		$(".project-entry:last").append(formattedProject);
-		if (_project.onlineCourses[project].image.length > 0){
+		for (project in _project.onlineCourses){
+			// create a new div for every project
+			$("#projects").append(HTMLprojectStart);
+			// format using helper.js
+			var projectURL = HTMLprojectURL.replace("%url%", _project.onlineCourses[project].projectURL);
+			var projectTitle = HTMLprojectTitle.replace("%data%", _project.onlineCourses[project].projectTitle);
+			var projectDates = HTMLprojectDates.replace("%data%", _project.onlineCourses[project].dates);
+			var projectDescription = HTMLprojectDescription.replace("%data%", _project.onlineCourses[project].description);
+			// combines the formatted changes
+			var formattedProject = projectURL + projectTitle + projectDates + projectDescription;
+			// appends the project to each div
+			$(".project-entry:last").append(formattedProject);
+
 			for (image in _project.onlineCourses[project].image){
 				var projectImage = HTMLprojectImage.replace("%data%", _project.onlineCourses[project].image[image]);
-				$(".project-entry:last").append(projectImage)
+				$(".project-entry:last").append(projectImage);
 			}
 		}
-	}
 }
 
 projects.display(projects);
